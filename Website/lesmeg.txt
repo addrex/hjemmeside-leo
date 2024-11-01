@@ -1,0 +1,13 @@
+Siden forrige gang, har jeg laget følgende:
+
+1. Laget en ny side, photography og lagt til link på den første nettsiden
+2. "Laget" (med litt hjelp av google) en responsive grid. (det var vel egentlig ikke jeg som lagde den ettersom jeg fant en tutorial på google)
+3. Laget en responsive navbar, med en hamburger-meny som åpner en meny. Egentlig hadde jeg Javascript i en egen .js fil, men jeg klarte ikke å få den til å funke når jeg åpnet selve .html filen. Derfor er javascripten i en script-tag i HTML-filen.
+4. Lastet opp mine egne bilder på en nettside med gratis hosting, og lastet de opp på nettsiden.
+
+
+
+
+
+
+Det jeg har lært mest om siden forrige innlevering, er å lage nettsiden responsiv. Dette er noe jeg ikkek unne noe om fra før, men jeg har lært litt.
