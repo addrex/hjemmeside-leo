@@ -8,6 +8,10 @@
   src: url(Fonts/FuturaCyrillicBold.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+
+
 
 nav {
 
@@ -32,7 +36,7 @@ nav li {
   justify-content: center;
 }
 
-nav li:hover {
+.hideOnMobile a:hover {
   background-color: rgb(59, 56, 56);
   cursor: pointer;
 }
@@ -52,13 +56,13 @@ nav a {
   width: auto;
   padding: 8px;
   background-color: rgb(79, 75, 75);
+  margin-left: 0;
   
   
 }
 
 .navbar li {
-  margin: 10px;
-
+  margin: 10px 19px 10px 30px
 }
 
 
@@ -169,12 +173,15 @@ body, html {
   padding: 0;
   margin: 0;
   background-color: rgb(243, 242, 242);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   overflow-x: hidden;
 
 
 }
 
+body {
+  font-family: "Parkinsans", sans-serif;
+}
 
 .seperate {
   width: 100%;
@@ -188,6 +195,7 @@ a {
 * {
   margin: 0;
   padding: 0;
+  font-weight: 700;
 }
 
 
@@ -207,7 +215,7 @@ h1, h1, p {
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
-  margin-top: 100px
+  margin-top: 50px
   
   
 }
@@ -257,7 +265,9 @@ img {
 
 
 
-
+#item1, #item3 a {
+  white-space: nowrap;
+}
 
 
 
@@ -270,10 +280,11 @@ img {
   max-width: 40vw;
   gap: 20px;
 
-  max-height: 300px;
+  max-height: 380px;
   height: 100%;
   overflow: hidden;
 }
+
 
 
 
