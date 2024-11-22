@@ -322,7 +322,7 @@ body, html {
   
   
   .item-1 {
-    background-image: url(https://i.ibb.co/cwvff7D/90-MG-6734.jpg);
+    background-image: url('https://i.ibb.co/cwvff7D/90-MG-6734.jpg'); 
   }
   
   .item-2 {
@@ -388,6 +388,46 @@ body, html {
   .item-17 {
     background-image: url('https://i.ibb.co/zQvbw9D/92-MG-6565.jpg');
   }
+
+  .item-18 {
+    background-image: url('https://i.ibb.co/Xx7NzL2/7-MG-8921.jpg');
+}
+.item-19 {
+    background-image: url('https://i.ibb.co/Vj4hKNg/6-MG-8984.jpg');
+}
+.item-20 {
+    background-image: url('https://i.ibb.co/2700pGP/81-MG-7173.jpg');
+}
+.item-21 {
+    background-image: url('https://i.ibb.co/Tvh3KYD/72-155-A5-EEC-D619-4-B89-BEB1-6-E612-C587032.jpg');
+}
+.item-22 {
+    background-image: url('https://i.ibb.co/4g2GpQc/71-MG-7350.jpg');
+}
+.item-23 {
+    background-image: url('https://i.ibb.co/8xt9dvJ/69-MG-7414.jpg');
+}
+.item-24 {
+    background-image: url('https://i.ibb.co/w4LxNC0/61-20240326-170055590-i-OS.jpg');
+}
+.item-25 {
+    background-image: url('https://i.ibb.co/bW2cRRN/51-MG-7704.jpg');
+}
+.item-26 {
+    background-image: url('https://i.ibb.co/VTqkLwN/49-IMG-7627.jpg');
+}
+.item-27 {
+    background-image: url('https://i.ibb.co/vd8xXVq/47-MG-7772.jpg');
+}
+.item-28 {
+    background-image: url('https://i.ibb.co/RvTTQsg/42-MG-7968.jpg');
+}
+.item-29 {
+    background-image: url('https://i.ibb.co/fk4sMp2/32-MG-8197.jpg');
+}
+.item-30 {
+    background-image: url('https://i.ibb.co/KzjGzQg/24-MG-8409.jpg');
+}
   
   .header {
     background-image: url('https://i.ibb.co/LQGyzVT/25-MG-8396.jpg');
@@ -412,7 +452,7 @@ body, html {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(260px, 1fr)); 
     display: grid;
-    height: 2000em;
+    height: 1150vh;
     justify-content: center;
     align-content: end;
     grid-gap: 3px;
@@ -440,6 +480,32 @@ body, html {
    
   }
 
+
+  @media(max-width:500px) {
+    .grid-wrapper {
+      height: 1150vh;
+    }
+  }
+
+  @media(min-width:501px) and (max-width:750px) {
+    .grid-wrapper {
+      height: 500vh;
+    }
+  }
+
+  @media(min-width:725px) and (max-width: 970px) {
+    .grid-wrapper {
+      height: 500vh;
+    }
+  }
+
+  @media(min-width: 970px) {
+    .grid-wrapper {
+      height: 385vh;
+    }
+  }
+
+  
 
     
   
