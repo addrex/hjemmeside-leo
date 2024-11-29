@@ -15,7 +15,7 @@
 
 nav {
 
-  background-color: rgb(79, 75, 75);
+  background-color: #838368;
   color: white;
 }
   
@@ -37,7 +37,7 @@ nav li {
 }
 
 .hideOnMobile a:hover {
-  background-color: rgb(59, 56, 56);
+  background-color: #71715b;
   cursor: pointer;
 }
 
@@ -55,7 +55,7 @@ nav a {
   align-items: center;
   width: auto;
   padding: 8px;
-  background-color: rgb(79, 75, 75);
+  background-color: #838368;
   margin-left: 0;
   
   
@@ -76,7 +76,7 @@ nav a {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 68, 0, 0.566);
+  background-color: #f7c58074;
   display: none;
   flex-direction: column;
   align-items: flex-start;
@@ -104,15 +104,13 @@ nav a {
 
 }
 
-.logo:hover {
-  background-color: rgb(79, 75, 75);
-}
+
 .sidebar li:hover {
-  background-color: rgba(255, 68, 0, 0.742);;
+  background-color: #f7c5809c;;
 }
 
 .menuButton {
-  fill: orangered;
+  fill: #F7C680;
 }
 
 .menu {
@@ -156,7 +154,7 @@ a {
 
 .logo1 {
   font-size: 33px;
-  color: #FF662D;
+  color: #F7C680;
   margin-right: 10px;
   margin-left: 10px;
   letter-spacing: 1px;
@@ -172,9 +170,10 @@ a {
 body, html {
   padding: 0;
   margin: 0;
-  background-color: rgb(243, 242, 242);
+  background-color: #D4CABA;
   /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   overflow-x: hidden;
+  color: #5C534D;
 
 
 }
@@ -253,7 +252,7 @@ img {
   transform: translate(-50%, -50%);
   z-index: 9999;
   font-size: 45px;
-  color: orangered;
+  color: #F7C680;
 }
 
 .image {
@@ -330,7 +329,7 @@ img {
 .footer {
   height: 80px;
   width: 100%;
-  background-color: gray;
+  background-color: #838368;
   display: flex;
   justify-content: center;
   bottom: 100%;
@@ -353,7 +352,7 @@ img {
   margin-top: 30vh;
   margin-bottom: 30vh;
   display: flex;
-  background-color: orangered;
+  background-color: #F7C680;
   width: 99vw;
   height: auto;
   align-items: center;
